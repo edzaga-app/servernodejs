@@ -18,4 +18,4 @@ COPY . .
 # Expondo el puerto por donde va a escuchar mi aplicación
 EXPOSE 5002
 
-CMD [ "pm2-runtime", "ecosystem.config.js", "--env", "production" ]
+CMD ["pm2-runtime", "ecosystem.config.js", "--env", "production"]
