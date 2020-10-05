@@ -2,7 +2,7 @@
 FROM node:14.6.0-alpine
 
 # Defino el directorio en donde se va a ejecutar mi configuración dentro del contenedor
-WORKDIR /home/edwar.zapata/projects/repository
+WORKDIR /home/edwar.zapata/projects/environment/production
 
 # Copio el archivo package.json para despues instalar las dependencias de mi repositorio
 COPY package*.json ./
